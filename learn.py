@@ -55,11 +55,20 @@
 # print(type(y))
 # print(type(z))
 
-inp = input("enter the any number : ")
-print(type(inp))
-# a = int(inp)
-# print(type(a))
+# inp = input("enter the any number : ")
+# print(type(inp))
+# # a = int(inp)
+# # print(type(a))
 
-a = float(inp)
-print(type(a))
-print(a)
+# a = float(inp)
+# print(type(a))
+# print(a)
+
+
+
+#print sum of two numbers
+a = input("enter the first number: ")
+b = input("enter the second number: ")
+
+sum = int(a) + int(b)
+print("sum of two numbers is " , sum)

@@ -92,13 +92,45 @@
 
 
 
-name = "Rohit Bharti"
-print(name.replace('Rohit Bharti',"Virat Kohli"))
-print(name.replace('Bharti',"Sharma"))
-print(name.replace('i',"Sharma"))
-# name = "Replace"
-print(name)
-print("R" in name)
-print("z" in name)
-print("rohit" in name)
-print("Rohit" in name)
+# name = "Rohit Bharti"
+# print(name.replace('Rohit Bharti',"Virat Kohli"))
+# print(name.replace('Bharti',"Sharma"))
+# print(name.replace('i',"Sharma"))
+# # name = "Replace"
+# print(name)
+# print("R" in name)
+# print("z" in name)
+# print("rohit" in name)
+# print("Rohit" in name)
+
+
+
+# # Arithmetic operators
+# print(5+2)
+# print(5-2)
+# print(5*2)
+# print(5 / 2)
+# print(5 // 2)
+# print(5 % 2)
+# print(5 ** 2)
+
+# reult = 2+2*3
+# print(reult)
+
+# reult = 2+2/3
+# print(reult)
+
+
+
+
+# #Comparision
+# print(3 == 3)
+# print(3 == (2+1))
+# print(3 != 3)
+
+
+#Logical Operators
+print(3>5 or 2>1)
+print(3>5 and 2>1)
+print(not 2>1)
+print(not 3>5 and 2>1)

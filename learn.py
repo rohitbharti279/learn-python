@@ -66,9 +66,39 @@
 
 
 
-#print sum of two numbers
-a = input("enter the first number: ")
-b = input("enter the second number: ")
+# #print sum of two numbers
+# a = input("enter the first number: ")
+# b = input("enter the second number: ")
 
-sum = int(a) + int(b)
-print("sum of two numbers is " , sum)
+# sum = int(a) + int(b)
+# print("sum of two numbers is " , sum)
+
+
+
+#STRINGS
+
+# name = "RohIT BHArti"
+# print(name.upper())
+# print(name.lower())
+# print(name.capitalize())
+# print(name)
+
+
+# name = "RohIT BHArti"
+# print(name.find('I'))
+# print(name.find('i'))
+# print(name.find('Bharti'))
+# print(name.find('BHArti'))
+
+
+
+name = "Rohit Bharti"
+print(name.replace('Rohit Bharti',"Virat Kohli"))
+print(name.replace('Bharti',"Sharma"))
+print(name.replace('i',"Sharma"))
+# name = "Replace"
+print(name)
+print("R" in name)
+print("z" in name)
+print("rohit" in name)
+print("Rohit" in name)

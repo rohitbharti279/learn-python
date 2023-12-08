@@ -129,8 +129,22 @@
 # print(3 != 3)
 
 
-#Logical Operators
-print(3>5 or 2>1)
-print(3>5 and 2>1)
-print(not 2>1)
-print(not 3>5 and 2>1)
+# #Logical Operators
+# print(3>5 or 2>1)
+# print(3>5 and 2>1)
+# print(not 2>1)
+# print(not 3>5 and 2>1)
+
+
+# age = 24
+age = int(input("enter you age: "))
+
+if age >= 18:
+    print("you are adult")
+    print("you can vote")
+
+elif age >= 3 and age < 18:
+    print("you are school going boy")
+
+else:
+    print("you are children")

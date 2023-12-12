@@ -136,15 +136,45 @@
 # print(not 3>5 and 2>1)
 
 
-# age = 24
-age = int(input("enter you age: "))
+# # age = 24
+# age = int(input("enter you age: "))
 
-if age >= 18:
-    print("you are adult")
-    print("you can vote")
+# if age >= 18:
+#     print("you are adult")
+#     print("you can vote")
 
-elif age >= 3 and age < 18:
-    print("you are school going boy")
+# elif age >= 3 and age < 18:
+#     print("you are school going boy")
+
+# else:
+#     print("you are children")
+
+
+
+
+# Calculator
+first = int(input("enter first number:-"))
+operator = input("enter operator like +,-,*,/,%: ")
+second = int(input("enter second number:-"))
+
+# or
+# first = int(first)
+# second = int(second)
+
+if operator == "+":
+    print("sum of given numbers is : ", (first + second))
+
+elif operator == "-":
+    print(first - second)
+
+elif operator == "*":
+    print(first * second)
+
+elif operator == "/":
+    print(first / second)
+
+elif operator == "%":
+    print(first % second)
 
 else:
-    print("you are children")
+    print("unknown operator")

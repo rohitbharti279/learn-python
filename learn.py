@@ -152,29 +152,51 @@
 
 
 
-# Calculator
-first = int(input("enter first number:-"))
-operator = input("enter operator like +,-,*,/,%: ")
-second = int(input("enter second number:-"))
+# # Calculator
+# first = int(input("enter first number:-"))
+# operator = input("enter operator like +,-,*,/,%: ")
+# second = int(input("enter second number:-"))
 
-# or
-# first = int(first)
-# second = int(second)
+# # or
+# # first = int(first)
+# # second = int(second)
 
-if operator == "+":
-    print("sum of given numbers is : ", (first + second))
+# if operator == "+":
+#     print("sum of given numbers is : ", (first + second))
 
-elif operator == "-":
-    print(first - second)
+# elif operator == "-":
+#     print(first - second)
 
-elif operator == "*":
-    print(first * second)
+# elif operator == "*":
+#     print(first * second)
 
-elif operator == "/":
-    print(first / second)
+# elif operator == "/":
+#     print(first / second)
 
-elif operator == "%":
-    print(first % second)
+# elif operator == "%":
+#     print(first % second)
 
-else:
-    print("unknown operator")
+# else:
+#     print("unknown operator")
+
+
+
+
+
+
+#while loop
+
+# i = 1
+# while i<=10:
+#     print(i)
+#     i +=1
+
+# i = 1
+# while i<=5:
+#     print(i * "*")
+#     i +=1
+
+i = 10
+while i>0:
+    print(i * "*")
+    i -=1

@@ -241,6 +241,36 @@
     
 
 
-marks = [99,22,3,4,5,6,7,8,9,10,11,12,13,"rohit","ankit"]
-for score in marks:
-    print(score)
+# marks = [99,22,3,4,5,6,7,8,9,10,11,12,13,"rohit","ankit"]
+# for score in marks:
+#     print(score)
+
+
+# marks = [99,78,94]
+
+# #using APPEND add marks from end
+# marks.append(100)
+# marks.append("rohit")
+
+
+#add on particular index then use INSERT
+# marks.insert(0, 45)
+# marks.insert(1, 100)
+# print(marks)
+
+#CHECKING
+# print(100 in marks)
+
+# marks = [99,78,94]
+
+# print(len(marks))
+
+# i = 0
+# while i < len(marks):
+#     print(marks[i])
+#     i = i+1
+
+
+# marks = [99,78,94]
+# marks.clear()
+# print(marks)

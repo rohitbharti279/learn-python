@@ -184,19 +184,34 @@
 
 
 
-#while loop
+# #while loop
 
-# i = 1
-# while i<=10:
-#     print(i)
-#     i +=1
+# # i = 1
+# # while i<=10:
+# #     print(i)
+# #     i +=1
 
-# i = 1
-# while i<=5:
+# # i = 1
+# # while i<=5:
+# #     print(i * "*")
+# #     i +=1
+
+# i = 10
+# while i>0:
 #     print(i * "*")
-#     i +=1
+#     i -=1
 
-i = 10
-while i>0:
-    print(i * "*")
-    i -=1
+
+
+
+
+
+# rang = range(5)
+# print(rang)
+
+
+# for i in range(5):
+#     print(i)
+
+for item in range(5):
+    print((item + 1 ) * "*")

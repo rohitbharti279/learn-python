@@ -213,5 +213,23 @@
 # for i in range(5):
 #     print(i)
 
-for item in range(5):
-    print((item + 1 ) * "*")
+# for item in range(5):
+#     print((item + 1 ) * "*")
+
+
+
+#List
+marks = [99,22,3,4,5,6,7,8,9,10,11,12,13,"rohit","ankit"]
+print(marks)
+
+print(marks[0])
+print(marks[5])
+print(marks[-1]) #-1 is for last
+print(marks[-2]) #-2 second last
+
+print(marks.index(3)) #index of
+print(marks.index("rohit"))
+
+print(marks[0:2]) #2 not include
+print(marks[3:10])
+print(marks[0:(len(marks)+1)])

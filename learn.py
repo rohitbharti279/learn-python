@@ -274,3 +274,19 @@
 # marks = [99,78,94]
 # marks.clear()
 # print(marks)
+
+
+students = ["rohit","rahul", "ankit", "mohan", "mohit","subhash"]
+
+print("Break...")
+for student in students:
+    if(student == "ankit"):
+        break; #break the loop when ankit found as a student
+    print(student)
+
+print("Continue...")
+
+for student in students:
+    if(student == "mohan"):
+        continue; #run the loop again when a student name's mohan
+    print(student)

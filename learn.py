@@ -276,17 +276,38 @@
 # print(marks)
 
 
-students = ["rohit","rahul", "ankit", "mohan", "mohit","subhash"]
+# students = ["rohit","rahul", "ankit", "mohan", "mohit","subhash"]
 
-print("Break...")
-for student in students:
-    if(student == "ankit"):
-        break; #break the loop when ankit found as a student
-    print(student)
+# print("Break...")
+# for student in students:
+#     if(student == "ankit"):
+#         break; #break the loop when ankit found as a student
+#     print(student)
 
-print("Continue...")
+# print("Continue...")
 
-for student in students:
-    if(student == "mohan"):
-        continue; #run the loop again when a student name's mohan
-    print(student)
+# for student in students:
+#     if(student == "mohan"):
+#         continue; #run the loop again when a student name's mohan
+#     print(student)
+
+
+#TUPLE
+#cannot modify(delete/update)
+# marks = 98,88,66,1,2,3,4,99,1,2,3,4,99,99  #this is also called tuple
+
+# # marks = (98,88,66,1,2,3,4,99,1,2,3,4,99,99)
+# # marks[0] = 100
+# print(marks.count(99))
+# print(marks.index(99))
+# print(marks)
+
+
+# [] = list
+# () = tuple
+# {} = sets -> unique value store
+
+marks = {1,2,3,4,4,5,2,3,4}
+
+for mark in marks:
+    print(mark)

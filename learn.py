@@ -303,11 +303,31 @@
 # print(marks)
 
 
-# [] = list
+# [] = list => ARRAY
 # () = tuple
 # {} = sets -> unique value store
 
-marks = {1,2,3,4,4,5,2,3,4}
+# marks = {1,2,3,4,4,5,2,3,4}
 
-for mark in marks:
-    print(mark)
+# for mark in marks:
+#     print(mark)
+
+#DICTIONARY => OBJECT
+
+marks = {
+    "english" : 97,
+    "maths" : 96,
+    "hindi" : 97,
+    "science" : 100
+}
+print(marks)
+print(marks["hindi"])
+
+#ADD
+marks["social science"] = 92
+print(marks)
+
+#update 
+marks["social science"] = 96
+print(marks)
+

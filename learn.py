@@ -312,22 +312,66 @@
 # for mark in marks:
 #     print(mark)
 
-#DICTIONARY => OBJECT
 
-marks = {
-    "english" : 97,
-    "maths" : 96,
-    "hindi" : 97,
-    "science" : 100
-}
-print(marks)
-print(marks["hindi"])
 
-#ADD
-marks["social science"] = 92
-print(marks)
 
-#update 
-marks["social science"] = 96
-print(marks)
 
+
+
+
+
+
+# #DICTIONARY => OBJECT
+
+# marks = {
+#     "english" : 97,
+#     "maths" : 96,
+#     "hindi" : 97,
+#     "science" : 100
+# }
+# print(marks)
+# print(marks["hindi"])
+
+# #ADD
+# marks["social science"] = 92
+# print(marks)
+
+# #update 
+# marks["social science"] = 96
+# print(marks)
+
+
+
+
+#FUNCTION
+
+# 1) in-built functions => int(), float(), string(), bool()
+# 2) module functions => math
+# 3) user-defined functions => UserDefinedFunction
+
+# import math
+# print(dir(math))
+
+# from math import sqrt
+# print(sqrt(16))
+
+# #if you needed all functions then use *
+# from math import *
+# print(sqrt(3))
+
+
+
+
+# def finction_one(a,b):
+#     sum = a + b
+#     print(sum)
+
+# finction_one(2,3)
+
+
+def finction_one(first, second = 25):
+    sum = first +  second
+    print(sum)
+
+finction_one(32,33)
+finction_one(32)

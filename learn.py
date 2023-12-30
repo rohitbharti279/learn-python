@@ -375,3 +375,4 @@ def finction_one(first, second = 25):
 
 finction_one(32,33)
 finction_one(32)
+finction_one(100)

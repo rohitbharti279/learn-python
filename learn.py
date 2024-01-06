@@ -369,9 +369,9 @@
 # finction_one(2,3)
 
 
-def finction_one(first, second = 25):
-    sum = first +  second
-    print(sum)
+# def finction_one(first, second = 25):
+#     sum = first +  second
+#     print(sum)
 
-finction_one(32,33)
-finction_one(32)
+# finction_one(32,33)
+# finction_one(32)
